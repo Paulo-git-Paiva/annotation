@@ -20,7 +20,7 @@ export default defineNuxtConfig({
       },
     },
   },
-  
+  route: {
     routes: [
       { name: 'home', path: '/', component: 'pages/homeApp.vue' },
       { name: 'createAnnotation', path: '/createAnnotation', component: 'pages/createAnnotation.vue' },
